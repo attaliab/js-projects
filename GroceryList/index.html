@@ -12,39 +12,19 @@
 </head>
 <body>
     <section class="section-center">
-        <form class="grocery-form"></form>
-        <p class="alert"></p>
-        <h1>Grocery List</h1>
-        <div class="form-control">
-            <!--INPUT-->
-            <input type="text" id="item-input" placeholder="e.g. eggs, bread, milk">
-        <button type="submit" id="submit-btn">Add</button>
-        </div>
+        <form class="grocery-form">
+            <p class="alert"></p>
+            <h1>Grocery List</h1>
+            <div class="form-control">
+                <!--INPUT-->
+                <input type="text" id="grocery" placeholder="e.g. eggs, bread, milk">
+                <button type="submit" id="submit-btn">Add</button>
+            </div>
+        </form>
         <!--GROCERY LIST BOX-->
         <div class="grocery-container">
-            <div class="grocerylist">
-                <!--GROCERY LIST ITEM and ACTIONS-->
-                <article class="grocery-item">
-                    <!--GROCERY LIST ITEM-->
-                    <p class="title">item</p>
-                    <!--GROCERY LIST ACTIONS-->
-                    <div class="btn-container">
-                        <button type="button" class="edit-btn">
-                            <span class="material-icons">
-                                create
-                                </span>
-
-                            <i class="fas fa-edit"></i>
-                        </button>
-                        <button type="button" class="delete-btn">
-                            <span class="material-icons">
-                                delete
-                                </span>
-                            <i class="fas fa-trash"></i>
-                        </button>
-                    </div>
-                </article>
-
+            <div class="grocery-list">
+                <!-- List code from JS -->
             </div>
             <button id="clear-btn">Clear list</button>
         </div>
